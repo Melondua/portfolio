@@ -1,3 +1,4 @@
+// pembuatan animasi klik more info about
 function toggleDetail(e) {
     const target = $(e.target)
 
@@ -7,10 +8,7 @@ function toggleDetail(e) {
         $(target).html("Lest Info").addClass("active")
     }
 
-
-
     const item = $(target).parents(".about-exp-item")
-
     const detail = $(item).children(".about-exp-item-detail")
     $(detail).slideToggle()
 
